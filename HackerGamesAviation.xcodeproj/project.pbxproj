@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30488461EB5E693009D9397 /* Giza.png in Resources */ = {isa = PBXBuildFile; fileRef = A30488441EB5E693009D9397 /* Giza.png */; };
+		A30488471EB5E693009D9397 /* SauletekioAvenue.png in Resources */ = {isa = PBXBuildFile; fileRef = A30488451EB5E693009D9397 /* SauletekioAvenue.png */; };
+		A30488491EB5F6DA009D9397 /* hudson_river.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30488481EB5F6DA009D9397 /* hudson_river.jpg */; };
 		A349DD251EB4C2A70060D19B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349DD241EB4C2A70060D19B /* AppDelegate.swift */; };
-		A349DD271EB4C2A70060D19B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349DD261EB4C2A70060D19B /* ViewController.swift */; };
+		A349DD271EB4C2A70060D19B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349DD261EB4C2A70060D19B /* MapViewController.swift */; };
 		A349DD2A1EB4C2A70060D19B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A349DD281EB4C2A70060D19B /* Main.storyboard */; };
 		A349DD2C1EB4C2A70060D19B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A349DD2B1EB4C2A70060D19B /* Assets.xcassets */; };
 		A349DD2F1EB4C2A70060D19B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A349DD2D1EB4C2A70060D19B /* LaunchScreen.storyboard */; };
+		A349DD371EB4C3060060D19B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349DD361EB4C3060060D19B /* LocationManager.swift */; };
+		A349DD441EB4D8240060D19B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A349DD431EB4D8240060D19B /* MapKit.framework */; };
+		A371E58F1EB5453800DE94EB /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371E58E1EB5453800DE94EB /* ContactsViewController.swift */; };
+		A371E5911EB55BF600DE94EB /* PanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371E5901EB55BF600DE94EB /* PanelViewController.swift */; };
+		A39E37CD1EB4E67B002D809B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A39E37CB1EB4E67B002D809B /* InfoPlist.strings */; };
+		A39E37D01EB4E9BB002D809B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39E37CF1EB4E9BB002D809B /* MapView.swift */; };
+		A39E37D21EB51204002D809B /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39E37D11EB51204002D809B /* MPCManager.swift */; };
+		A39E37D41EB51D79002D809B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39E37D31EB51D79002D809B /* ChatViewController.swift */; };
+		A39E37DC1EB539A9002D809B /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39E37DB1EB539A9002D809B /* AlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A30488441EB5E693009D9397 /* Giza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Giza.png; sourceTree = "<group>"; };
+		A30488451EB5E693009D9397 /* SauletekioAvenue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SauletekioAvenue.png; sourceTree = "<group>"; };
+		A30488481EB5F6DA009D9397 /* hudson_river.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hudson_river.jpg; sourceTree = "<group>"; };
 		A349DD211EB4C2A70060D19B /* HackerGamesAviation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerGamesAviation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A349DD241EB4C2A70060D19B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A349DD261EB4C2A70060D19B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A349DD261EB4C2A70060D19B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A349DD291EB4C2A70060D19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A349DD2B1EB4C2A70060D19B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A349DD2E1EB4C2A70060D19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A349DD301EB4C2A70060D19B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A349DD361EB4C3060060D19B /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A349DD391EB4CC500060D19B /* Route.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Route.gpx; sourceTree = "<group>"; };
+		A349DD431EB4D8240060D19B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A349DD4D1EB4DF180060D19B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		A349DD4E1EB4DF180060D19B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A349DD5E1EB4E3BF0060D19B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		A349DD5F1EB4E3C50060D19B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/Info.plist; sourceTree = "<group>"; };
+		A371E58E1EB5453800DE94EB /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		A371E5901EB55BF600DE94EB /* PanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelViewController.swift; sourceTree = "<group>"; };
+		A39E37CC1EB4E67B002D809B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A39E37CF1EB4E9BB002D809B /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A39E37D11EB51204002D809B /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
+		A39E37D31EB51D79002D809B /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A39E37DB1EB539A9002D809B /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A349DD441EB4D8240060D19B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A30488431EB5E693009D9397 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A30488481EB5F6DA009D9397 /* hudson_river.jpg */,
+				A30488441EB5E693009D9397 /* Giza.png */,
+				A30488451EB5E693009D9397 /* SauletekioAvenue.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		A349DD181EB4C2A70060D19B = {
 			isa = PBXGroup;
 			children = (
 				A349DD231EB4C2A70060D19B /* HackerGamesAviation */,
 				A349DD221EB4C2A70060D19B /* Products */,
+				A349DD421EB4D8240060D19B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +95,31 @@
 			isa = PBXGroup;
 			children = (
 				A349DD241EB4C2A70060D19B /* AppDelegate.swift */,
-				A349DD261EB4C2A70060D19B /* ViewController.swift */,
+				A349DD261EB4C2A70060D19B /* MapViewController.swift */,
+				A39E37DB1EB539A9002D809B /* AlertViewController.swift */,
+				A39E37D31EB51D79002D809B /* ChatViewController.swift */,
+				A371E58E1EB5453800DE94EB /* ContactsViewController.swift */,
+				A371E5901EB55BF600DE94EB /* PanelViewController.swift */,
+				A349DD361EB4C3060060D19B /* LocationManager.swift */,
+				A39E37CF1EB4E9BB002D809B /* MapView.swift */,
+				A39E37D11EB51204002D809B /* MPCManager.swift */,
 				A349DD281EB4C2A70060D19B /* Main.storyboard */,
 				A349DD2B1EB4C2A70060D19B /* Assets.xcassets */,
 				A349DD2D1EB4C2A70060D19B /* LaunchScreen.storyboard */,
-				A349DD301EB4C2A70060D19B /* Info.plist */,
+				A349DD5B1EB4E2590060D19B /* Info.plist */,
+				A349DD391EB4CC500060D19B /* Route.gpx */,
+				A39E37CB1EB4E67B002D809B /* InfoPlist.strings */,
+				A30488431EB5E693009D9397 /* Images */,
 			);
 			path = HackerGamesAviation;
+			sourceTree = "<group>";
+		};
+		A349DD421EB4D8240060D19B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A349DD431EB4D8240060D19B /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +155,14 @@
 					A349DD201EB4C2A70060D19B = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -107,6 +173,8 @@
 			knownRegions = (
 				en,
 				Base,
+				lt,
+				de,
 			);
 			mainGroup = A349DD181EB4C2A70060D19B;
 			productRefGroup = A349DD221EB4C2A70060D19B /* Products */;
@@ -124,6 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A349DD2F1EB4C2A70060D19B /* LaunchScreen.storyboard in Resources */,
+				A30488471EB5E693009D9397 /* SauletekioAvenue.png in Resources */,
+				A30488491EB5F6DA009D9397 /* hudson_river.jpg in Resources */,
+				A39E37CD1EB4E67B002D809B /* InfoPlist.strings in Resources */,
+				A30488461EB5E693009D9397 /* Giza.png in Resources */,
 				A349DD2C1EB4C2A70060D19B /* Assets.xcassets in Resources */,
 				A349DD2A1EB4C2A70060D19B /* Main.storyboard in Resources */,
 			);
@@ -136,7 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A349DD271EB4C2A70060D19B /* ViewController.swift in Sources */,
+				A349DD271EB4C2A70060D19B /* MapViewController.swift in Sources */,
+				A39E37DC1EB539A9002D809B /* AlertViewController.swift in Sources */,
+				A371E5911EB55BF600DE94EB /* PanelViewController.swift in Sources */,
+				A39E37D41EB51D79002D809B /* ChatViewController.swift in Sources */,
+				A39E37D01EB4E9BB002D809B /* MapView.swift in Sources */,
+				A349DD371EB4C3060060D19B /* LocationManager.swift in Sources */,
+				A371E58F1EB5453800DE94EB /* ContactsViewController.swift in Sources */,
+				A39E37D21EB51204002D809B /* MPCManager.swift in Sources */,
 				A349DD251EB4C2A70060D19B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +227,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A349DD291EB4C2A70060D19B /* Base */,
+				A349DD4D1EB4DF180060D19B /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,8 +236,26 @@
 			isa = PBXVariantGroup;
 			children = (
 				A349DD2E1EB4C2A70060D19B /* Base */,
+				A349DD4E1EB4DF180060D19B /* de */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A349DD5B1EB4E2590060D19B /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A349DD5E1EB4E3BF0060D19B /* en */,
+				A349DD5F1EB4E3C50060D19B /* de */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		A39E37CB1EB4E67B002D809B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39E37CC1EB4E67B002D809B /* de */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -258,7 +356,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = HackerGamesAviation/Info.plist;
+				INFOPLIST_FILE = HackerGamesAviation/en.lproj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dariukas.HackerGamesAviation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,7 +369,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = HackerGamesAviation/Info.plist;
+				INFOPLIST_FILE = HackerGamesAviation/en.lproj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dariukas.HackerGamesAviation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +397,7 @@
 				A349DD351EB4C2A70060D19B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
